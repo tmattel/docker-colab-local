@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-IMAGE=ikeyasu/colab-local:latest
+IMAGE=tmattel/colab-local:latest
 
 docker build \
 	-t ${IMAGE} \
