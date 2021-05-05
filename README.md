@@ -6,7 +6,7 @@ Install and RUN
 
 ```
 $ docker run --runtime=nvidia -it --rm -p 8081:8081 --cap-add SYS_ADMIN --device /dev/fuse \
-             --security-opt apparmor=unconfined ikeyasu/colab-local:latest
+             --security-opt apparmor=unconfined tmattel/colab-local:latest
 ```
 
 LICENSE
